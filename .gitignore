@@ -18,3 +18,8 @@ test-ledger/
 *keypair*.json
 **/target/deploy/*.json
 .config/solana/
+
+# Environment files (keep examples only)
+.env*
+!.env*.example
+!.env.example
